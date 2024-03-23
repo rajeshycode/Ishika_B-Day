@@ -44,7 +44,7 @@ h1.scrolling-text {
   color: hwb(0 4% 3%);
   white-space: nowrap;
 /*   overflow: hidden; */
-  animation: scrollText 25s linear infinite;
+/*  animation: scrollText 25s linear infinite;
 }
 
 @keyframes scrollText {
