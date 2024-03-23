@@ -280,14 +280,14 @@ h2 {
 }
 
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .container {
-    max-width: 80%;
+    max-width: 70%;
   }
 }
 
 /* Media Query for Tablets and Laptops */
-@media screen and (min-width: 601px) and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 1024px) {
   .container {
     max-width: 80%;
   }
