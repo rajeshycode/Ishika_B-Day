@@ -1,0 +1,294 @@
+ /* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("gif_img.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgb(241, 9, 9);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(13, 110, 236, 0.973);
+  text-align: center;
+  max-width: 600px;
+}
+
+.message-box {
+  background-color: #e6ff08ec;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  /* overflow: hidden; Add this to hide overflow */
+/*}
+
+.message-content {
+  text-align: left;
+}
+
+img {
+  background-color: #100cf7;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(241, 18, 18, 0.87);
+}
+
+h1.scrolling-text {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: hwb(0 4% 3%);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scrollText 25s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+h3 {
+  color: hsla(330, 100%, 51%, 0.992);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: hwb(290 4% 3%);
+}
+
+h2 {
+  color: hsl(239, 95%, 50%);
+}
+
+.signature {
+  font-weight: bold;
+  color: hwb(54 14% 38%);
+}
+
+video {
+  background-color: #100cf7;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(241, 18, 18, 0.87);
+} 
+ */  
+ 
+ /* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("gif_img.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgb(241, 9, 9);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(13, 110, 236, 0.973);
+  text-align: center;
+  max-width: 600px;
+}
+/*
+.message-box {
+  background-color: rgb(250, 246, 8);
+  border-radius: 5px;
+  padding: 0px;
+  margin-bottom: 15px;
+  overflow: hidden; /* Add this to hide overflow *
+} */
+/*
+img {
+  background-color: #100cf7;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(241, 18, 18, 0.87);
+}
+
+h1.scrolling-text {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: hwb(12 4% 3%);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scrollText 25s linear infinite;
+}
+
+h4.scrolling-box-container {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h4.scrolling-text {
+  display: inline;
+  font-size: 40px;
+  color: hwb(0 4% 3%);
+  animation: scrollTextH4 25s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollTextH4 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+h3 {
+  color: hsla(330, 100%, 51%, 0.992);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: rgb(14, 10, 247);
+}
+
+h2 {
+  color: hsl(0, 95%, 50%);
+}
+
+.signature {
+  font-weight: bold;
+  color: rgb(180, 165, 24);
+}
+
+video {
+  background-color: #100cf7;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(241, 18, 18, 0.87);
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("gif_img.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgb(241, 9, 9);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(13, 110, 236, 0.973);
+  text-align: center;
+  max-width: 600px;
+}
+
+.message-box {
+  background-color: rgb(250, 246, 8);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+img, video {
+  background-color: #100cf7;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(241, 18, 18, 0.87);
+}
+
+h1.scrolling-text {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: hwb(12 4% 3%);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scrollText 25s linear infinite;
+}
+
+h4.scrolling-text {
+  font-size: 40px;
+  color: hwb(0 4% 3%);
+  animation: scrollTextH4 25s linear infinite;
+  padding-bottom: 0;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollTextH4 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+h3 {
+  color: hsla(330, 100%, 51%, 0.992);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: rgb(14, 10, 247);
+}
+
+h2 {
+  color: hsl(0, 95%, 50%);
+}
+
+.signature {
+  font-weight: bold;
+  color: rgb(180, 165, 24);
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* Media Query for Tablets and Laptops */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    max-width: 80%;
+  }
+}
