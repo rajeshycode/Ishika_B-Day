@@ -43,7 +43,7 @@ h1.scrolling-text {
   margin-bottom: 10px;
   color: hwb(0 4% 3%);
   white-space: nowrap;
-  overflow: hidden;
+/*   overflow: hidden; */
   animation: scrollText 25s linear infinite;
 }
 
@@ -230,7 +230,7 @@ h1.scrolling-text {
   margin-bottom: 0px;
   color: hwb(12 4% 3%);
   white-space: nowrap;
-  overflow: hidden;
+/*   overflow: hidden; */
   animation: scrollText 25s linear infinite;
 }
 
