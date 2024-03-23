@@ -280,7 +280,7 @@ h2 {
 }
 
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .container {
     max-width: 70%;
   }
