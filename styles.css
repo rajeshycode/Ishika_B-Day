@@ -212,9 +212,9 @@ body {
 .message-box {
   background-color: rgb(250, 246, 8);
   border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 5px;
-/*   overflow: hidden; */
+  padding: 5px;
+  margin-bottom: 10px;
+ overflow: hidden; 
 }
 
 img, video {
